@@ -6,6 +6,16 @@ I'm not sure if this will work for the Micro-SD slot but don't see why it wouldn
 I am currently booting Pinn Multiboot with the 256GB Samsung Micro-SD "New PRO Plus + USB Reader"
 
 
+**Link to the Zynthian OS folder:**
+
+Download the file from any provider below
+
+Host 1. [Sync](https://ln5.sync.com/dl/2d24fb220/issh3ezf-pdct6b8s-iderb8v6-ud6zyr9z)
+
+Host 2. [Mega](https://mega.nz/file/RN9kUDLK#Z5Z_Jp6yEz1c-FcOvyUdl7DodRu4broVGdOD3zJ_7Qc)
+
+Host 3. [Google Drive](https://drive.google.com/file/d/1a4XwmpCFEhuqFlBqsRf_ayjaNmcC8SSQ/view?usp=sharing)
+
 **Note:**
 
 1. `USB(1)` Primary USB that will contain Pinn and any other OS `(I recommend 32GB or more if installing 3+ different Operating Systems)`
