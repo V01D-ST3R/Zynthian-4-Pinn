@@ -40,10 +40,10 @@ If booting fails after an update check the Pinn readme_pinn [How to Fix an OS](h
 
 ***`If you want to only else ignore;`*** You can manually backup the **`cmdline.txt`** located in the **`boot partition`** for restoring if booting fails.`(If you selected many different OS systems during Pinn setup; look through all the mounted partitions until you locate the file "zynthianos-wpa-supplicant.txt" and backup the cmdline.txt anywhere else)` There is also another cmdline.txt located on the Rootfs(0-x) partition located at **/home/pi/zynthian-sys/boot/cmdline.txt** make sure to note down the directory and not mix it with the other cmdline.txt from the main boot partition. (not sure if this cmdline.txt is important but still worth backing up)
 
-# **Required! Zynthian.local setup:**
+# **Zynthian.local setup:**
 
 1. After installing and booting; connect to ethernet and configure Zynthian at [Zynthian.local](http://zynthian.local) or the Pi's local IP `(password = raspberry)` (Ex:`192.168.1.XX` find yours in router settings or a wifi ip scanning app). Wifi can be enabled in the System>Wifi section.
-2. if there is **`no Display`** check the Display settings located in the Hardware>Display Section and try with `"Generic Hdmi Display"`.
+2. if there is **`no Display`** check the Display settings located in the Hardware>Display Section and try messing with the selections (Waveshare DSI 4.3" screen will work with the option `Pi 7 Touchscreen Display 800x480`).
 
 
 # **Notice:** 
