@@ -3,8 +3,9 @@ This is a pre-made Zynthian image compatible with Pinn multiboot running on a US
 
 I'm not sure if this will work for the Micro-SD slot but don't see why it wouldn't.
 
-I am currently booting Pinn Multiboot with a 256GB Samsung Micro-SD with USB adapter "New PRO Plus + USB Reader"
+I'm currently booting Pinn Multiboot with a 256GB Samsung Micro-SD with USB adapter "New PRO Plus + USB Reader"
 
+*Check back the README.md for any future changes.*
 
 # **Link to the Zynthian OS folder:**
 
@@ -33,7 +34,7 @@ Host 3. [Google Drive](https://drive.google.com/file/d/1a4XwmpCFEhuqFlBqsRf_ayja
 Check below to backup cmdline.txt incase booting fails before updating.
 
 # **Info**
-Take a backup of the cmdline.txt (picture or type it somewhere) check the [Maintenance Menu](https://github.com/procount/pinn/blob/master/README_PINN.md#easy-config-file-editor) (if using touchscreen only; connect a keyboard and restart to access the menu)
+Take a backup of the cmdline.txt (picture or type it somewhere) check the [Maintenance Menu](https://github.com/procount/pinn/blob/master/README_PINN.md#easy-config-file-editor) (the menu should show up automatically if a keyboard is connected on boot)
 
 If booting fails after an update check the Pinn readme_pinn [How to Fix an OS](https://github.com/procount/pinn/blob/master/README_PINN.md#how-to-fix-an-os) or the section [re-run-partition](https://github.com/procount/pinn/blob/master/README_PINN.md#re-run-partition_setupsh) for fixing.
 
