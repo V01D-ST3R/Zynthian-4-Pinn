@@ -11,11 +11,13 @@ I'm currently booting Pinn Multiboot with a 256GB Samsung Micro-SD with USB adap
 
 Download the file from any provider below
 
-Host 1. [Sync](https://ln5.sync.com/dl/2d24fb220/issh3ezf-pdct6b8s-iderb8v6-ud6zyr9z)
+----------------***WIP Updating to latest ZynthianOs***----------------
 
-Host 2. [Mega](https://mega.nz/file/RN9kUDLK#Z5Z_Jp6yEz1c-FcOvyUdl7DodRu4broVGdOD3zJ_7Qc)
+Host 1. [Sync]()WIP
 
-Host 3. [Google Drive](https://drive.google.com/file/d/1a4XwmpCFEhuqFlBqsRf_ayjaNmcC8SSQ/view?usp=sharing)
+Host 2. [Mega]()WIP
+
+Host 3. [Google Drive]()WIP
 
 # **Note:**
 
