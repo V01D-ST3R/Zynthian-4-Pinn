@@ -1,9 +1,5 @@
 # Zynthian-4-Pinn
-This is a pre-made Zynthian image compatible with Pinn multiboot running on a USB for the Raspberry Pi 4
-
-I'm not sure if this will work for the Micro-SD slot but don't see why it wouldn't.
-
-I'm currently booting Pinn Multiboot with a 256GB Samsung Micro-SD with USB adapter "New PRO Plus + USB Reader"
+This is a pre-made Zynthian image compatible with Pinn multiboot running on the Raspberry Pi 4
 
 *Check back the README.md for any future changes.*
 
@@ -33,19 +29,36 @@ Host 3. [Google Drive]()WIP
 3. During the Pinn OS installation screen where you select the OS to install, scroll to the bottom then select Zynthian (and any other OS you want) then press install.
 4. You should now be able to boot Zynthian from the `USB(1)` after Pinn is done with the setup. (it will take a few seconds for Zynthian to boot)
 
-Check below to backup cmdline.txt incase booting fails before updating.
+Check below to backup "root=PARTUUID=XXXXXX or root=/dev/mmcblkXXX" before updating or booting will fail.
 
-# **Info**
-Take a backup of the cmdline.txt (picture or type it somewhere) check the [Maintenance Menu](https://github.com/procount/pinn/blob/master/README_PINN.md#easy-config-file-editor) (the menu should show up automatically if a keyboard is connected on boot)
+# **Backup Instructions for "Root=/"**
+1. Inside of Pinn, head to the maintenance menu by clicking "More" in the corner `(to see the main Pinn menu; connect a keyboard while holding shift during boot)` and click on Zynthian and `"Edit Config > cmdline.txt"` located at the top and copy down the "root=PARTUUID=XXXXXX or root=/dev/mmcblkXXX". This is the partition id for Zynthian.
 
-If booting fails after an update check the Pinn readme_pinn [How to Fix an OS](https://github.com/procount/pinn/blob/master/README_PINN.md#how-to-fix-an-os) or the section [re-run-partition](https://github.com/procount/pinn/blob/master/README_PINN.md#re-run-partition_setupsh) for fixing.
+2. If you updated and forgot to copy down the `"root=PARTUUID=XXXXXX or root=/dev/mmcblkXXX"` while in the maintenance menu click on `"Fix > File System Check > OK"`  and there will be two different "PARTUUID=XXXXXX or /dev/mmcblkXXX" `copy down the last one (the first two will be similar so ignore those)` and `place it accordingly after the "=" in "root="` inside of the Zynthian "cmdline.txt".
 
-***`If you want to only else ignore;`*** You can manually backup the **`cmdline.txt`** located in the **`boot partition`** for restoring if booting fails.`(If you selected many different OS systems during Pinn setup; look through all the mounted partitions until you locate the file "zynthianos-wpa-supplicant.txt" and backup the cmdline.txt anywhere else)` There is also another cmdline.txt located on the Rootfs(0-x) partition located at **/home/pi/zynthian-sys/boot/cmdline.txt** make sure to note down the directory and not mix it with the other cmdline.txt from the main boot partition. (not sure if this cmdline.txt is important but still worth backing up)
+## ****Do not use these; it's only an Output Example:****
+
+    Checking Filesystems.....
+
+    Checking ZynthianStable....
+
+    /dev/mmcblk0pX1 or PARTUUID=1234567.....  (<----- ignore)
+
+    xxxxxxxxxxxxx.....
+
+    xxxxxxxxxxxxx.......
+
+    /dev/mmcblk0pX1 or PARTUUID=1234567.............   (<----- ignore)
+
+    /dev/mmcblk0pX2 or PARTUUID=7654321 (<-----This is the one you want to use in the cmdline.txt for Zynthian)
+
+    ext4......
 
 # **Zynthian.local setup:**
 
 1. After installing and booting; connect to ethernet and configure Zynthian at [Zynthian.local](http://zynthian.local) or the Pi's local IP `(password = raspberry)` (Ex:`192.168.1.XX` find yours in router settings or a wifi ip scanning app). Wifi can be enabled in the System>Wifi section.
-2. if there is **`no Display`** check the Display settings located in the Hardware>Display Section and try messing with the selections (Waveshare DSI 4.3" screen will work with the option `Pi 7 Touchscreen Display 800x480`).
+
+2. if there is **`no Display`** check the Display settings located in the Hardware>Display Section and try messing with the different options (Ex: Waveshare DSI 4.3" screen will work with the option `Pi 7 Touchscreen Display 800x480`). Also check the config.txt inside the "zynthboot" partition and comment `"hdmi_safe=1" --> "#hdmi_safe=1"` (<--Only if there's no display)
 
 
 # **Notice:** 
