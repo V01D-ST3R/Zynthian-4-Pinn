@@ -21,7 +21,8 @@ Host 3. [Google Drive]()WIP
 2. `USB(2)` Different USB with `8GB min` which will contain the OS folder for Pinn to see/detect Zynthian.
 3. Recommend to use RPI Imager to flash the bootloader with "USB Boot" (Unless using a MicroSd card)
 4. It looks like you can ***`allocate more space to Zynthian`*** by messing with **OS/Zynth/***partitions.json*****                          
-***`"edit the second section under; ext4/rootfs"`*** --> "partition_size_nominal": `(default 15108)` <-- set to whatever size you want (this would be 15GB). <sub> ***(Do not mess with "uncompressed_tarball_size: 11608" as this is the size required for the Zynthian image)***<sub> 
+***`"edit the second section under; ext4/rootfs"`*** --> "partition_size_nominal": `(default 15108)` <-- set to whatever size you want (this would be 15GB). <sub> ***(Do not mess with "uncompressed_tarball_size: 11608" as this is the size required for the Zynthian image)***<sub>
+5. The "root=" will look different for MicroSD and USB. Ex: `MicroSD= "root=/dev/mmcblkXXX"` and `USB= "root=PARTUUID=XXXXXX-X"`
 
 # **Instructions:**
 1. Install Pinn Multiboot to a `USB(1)` using "Raspberry Pi Imager->Misc utility images->Pinn->Pinn" then select the correct Storage `USB(1)` and write.
