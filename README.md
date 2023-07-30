@@ -9,11 +9,11 @@ Download the file from any provider below
 
 ----------------***WIP Updating to latest ZynthianOs***----------------
 
-Host 1. [Sync]()WIP
+Host 1. [Sync](https://ln5.sync.com/dl/2d24fb220/issh3ezf-pdct6b8s-iderb8v6-ud6zyr9z)
 
-Host 2. [Mega]()WIP
+Host 2. [Mediafire](https://www.mediafire.com/file/fi614jt5z5hsmz6/Zynthian-4-Pinn-main.zip/file)
 
-Host 3. [Google Drive]()WIP
+Host 3. [Google Drive](https://drive.google.com/file/d/1V5WDykyYNxZvoEUXtOdVdF1DdCa4y9Zb/view?usp=sharing)
 
 # **Note:**
 
