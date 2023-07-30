@@ -7,8 +7,6 @@ This is a pre-made Zynthian image compatible with Pinn multiboot running on the 
 
 Download the file from any provider below
 
-----------------***WIP Updating to latest ZynthianOs***----------------
-
 Host 1. [Sync](https://ln5.sync.com/dl/2d24fb220/issh3ezf-pdct6b8s-iderb8v6-ud6zyr9z)
 
 Host 2. [Mediafire](https://www.mediafire.com/file/fi614jt5z5hsmz6/Zynthian-4-Pinn-main.zip/file)
